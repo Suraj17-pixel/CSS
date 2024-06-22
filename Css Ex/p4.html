@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dubai Tourist Website</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+
+
+.news-item {
+    margin-bottom: 30px;
+}
+
+.news-item h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.date {
+    color: #777;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;                
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.section {
+    padding: 40px;
+    text-align: center;
+}
+
+#gallery {
+    background-color: #333;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-item {
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-item:hover img {
+    transform: scale(1.1);
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dubai!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Image</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <footer>
+        <p>&copy; 2024 Dubai Tourism. All rights reserved.</p>
+    </footer>
+
+<section id="home" class="section">
+    <h2>Explore the Magic of Dubai</h2>
+    <div class="content">
+        <p>Welcome to the vibrant city of Dubai, where modern luxury meets rich cultural heritage. Discover iconic landmarks like the Burj Khalifa, indulge in shopping extravaganzas, and enjoy the golden beaches.</p>
+        <p>Whether you're an adventure seeker or a luxury traveler, Dubai has something for everyone. Explore the bustling souks, experience thrilling desert safaris, or unwind at world-class spas.</p>
+        <p>Come and immerse yourself in the enchanting blend of tradition and innovation that makes Dubai a truly unique destination.</p>
+    </div>
+</section>
+
+
+<section id="news" class="section">
+    <h2>Latest News and Updates</h2>
+    <div class="news-item">
+        <h3>Grand Opening of Dubai Mall Extension</h3>
+        <p class="date">January 15, 2024</p>
+        <p>Exciting news! Dubai Mall has expanded with new shops, entertainment, and dining options. Don't miss out on the grand opening festivities this weekend.</p>
+    </div>
+
+    <div class="news-item">
+        <h3>Dubai Desert Music Festival Returns</h3>
+        <p class="date">February 5, 2024</p>
+        <p>Get ready for the music event of the year! The Dubai Desert Music Festival is back with an incredible lineup of international and local artists. Book your tickets now!</p>
+    </div>
+</section>
+
+
+<section id="contact" class="section">
+    <h2>Get in Touch</h2>
+    <div class="contact-form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+<section id="about" class="section">
+    <h2>Discover the Beauty of Dubai</h2>
+    <div class="about-content">
+        <p>Dubai, a city of wonders, is known for its futuristic skyline, luxurious lifestyle, and rich cultural heritage. Nestled on the southeast coast of the Persian Gulf, Dubai has transformed from a humble fishing village to a global metropolis.</p>
+        <p>Explore the iconic Burj Khalifa, the world's tallest building, and witness the stunning cityscape from its observation deck. Immerse yourself in the traditional souks, where you can shop for gold, spices, and textiles.</p>
+        <p>Experience the thrilling desert safaris, where you can ride camels, try sandboarding, and enjoy the mesmerizing sunset over the dunes. Dubai's commitment to innovation is reflected in attractions like the Palm Jumeirah and the Dubai Mall.</p>
+        <p>Whether you're fascinated by modern architecture, interested in traditional markets, or seeking adventure in the vast desert, Dubai promises a diverse and unforgettable experience.</p>
+    </div>
+</section>
+<section id="gallery" class="section">
+    <h2>Dubai Image Gallery</h2>
+
+    <div class="image-container">
+        <div class="image-item">
+            <img src="img/6.jpg" alt="Dubai Image 1">
+        </div>
+        <div class="image-item">
+            <img src="img/10.jpg" alt="Dubai Image 2">
+        </div>
+        <div class="image-item">
+            <img src="img/19.jpg" alt="Dubai Image 3">
+        </div>
+        <div class="image-item">
+            <img src="img/20.jpg" alt="Dubai Image 3">
+        </div>
+    </div>
+</section>
+
+
+</body>
+</html>
